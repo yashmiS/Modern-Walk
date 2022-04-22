@@ -78,3 +78,7 @@ img:hover {
 .card-description {
   border-radius: 10px;
 }
+.price {
+  color: blue;
+  text-align: center;
+}

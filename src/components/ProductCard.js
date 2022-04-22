@@ -10,7 +10,10 @@ const ProductCard = ({ product }) => {
           product.category === "men's clothing" ? "green" : "pink"
         }`}
       >
-        <h6>{`Price: ${product.price}`}</h6>
+        <div className="price">
+          {" "}
+          <h6>{`Price: ${product.price}`}</h6>
+        </div>
         <h6>{`Description: ${product.description}`}</h6>
       </div>
     </div>
