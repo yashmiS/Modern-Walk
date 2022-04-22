@@ -3,8 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Men from "./Men";
-import Women from "./Women";
+import Page from "./screens/Page";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -16,10 +15,10 @@ ReactDOM.render(
           <App />
         </Route>
         <Route exact path={"/men"}>
-          <Men />
+          <Page title="Men's clothing" category="men's clothing" />
         </Route>
         <Route exact path={"/women"}>
-          <Women />
+          <Page title="Women's clothing" category="women's clothing" />
         </Route>
       </Switch>
     </BrowserRouter>

@@ -1,13 +1,11 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-
-import Products from "./components/Products";
+import Header from "./components/Header";
+import Home from "./screens/Home";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Products />
+      <Header />
+      <Home />
     </div>
   );
 }
